@@ -1,0 +1,26 @@
+{
+	"name": "openovate/eden-middleware-htpasswd",
+    "type": "middleware",
+    "description": "Htpassword Example",
+	"minimum-stability": "dev",
+    "keywords": [
+		"eden"
+	],
+    "license": "MIT",
+	"authors": [
+        {
+            "name": "Christian Blanquera",
+            "email": "cblanquera@openovate.com"
+        }
+    ],
+	"require-dev": {
+        "phpunit/phpunit": "~4.4",
+        "squizlabs/php_codesniffer": "~1.5",
+        "eden/server": "4.x-dev"
+    },
+	"autoload": {
+        "psr-4": {
+			"Eden\\Middleware\\Htpasswd\\": "/src"
+		}
+    }
+}
