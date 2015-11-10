@@ -16,6 +16,6 @@
         "eden/registry": "4.*"
     },
 	"autoload": {
-        "psr-4": { "Eve\\Plugin\\Htpasswd\\": "/src" }
+        "psr-4": { "Eve\\Plugin\\Htpasswd\\": "./src" }
     }
 }
