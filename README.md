@@ -2,7 +2,7 @@
 ====
 HTPASSWD Dialog for the Eve Framework
 ====
-[![Build Status](https://api.travis-ci.org/eve-php/eve-plugin-htpasswd.png)](https://travis-ci.org/eve-php/eve-plugin-htpasswd)
+[![Build Status](https://api.travis-ci.org/eve-php/eve-plugin-htpasswd.png)](https://travis-ci.org/eve-php/eve-plugin-htpasswd) [![Latest Stable Version](https://poser.pugx.org/eve-php/eve-plugin-htpasswd/v/stable)](https://packagist.org/packages/eve-php/eve-plugin-htpasswd) [![Total Downloads](https://poser.pugx.org/eve-php/eve-plugin-htpasswd/downloads)](https://packagist.org/packages/eve-php/eve-plugin-htpasswd) [![Latest Unstable Version](https://poser.pugx.org/eve-php/eve-plugin-htpasswd/v/unstable)](https://packagist.org/packages/eve-php/eve-plugin-htpasswd) [![License](https://poser.pugx.org/eve-php/eve-plugin-htpasswd/license)](https://packagist.org/packages/eve-php/eve-plugin-htpasswd)
 ====
 
 - [Install](#install)
