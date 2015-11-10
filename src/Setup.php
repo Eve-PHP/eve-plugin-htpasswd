@@ -1,20 +1,23 @@
 <?php //-->
-/*
- * This file is part of the Persistent package of the Eden PHP Library.
- * (c) 2013-2014 Openovate Labs
+/**
+ * This file is part of the Eden PHP Library.
+ * (c) 2014-2016 Openovate Labs
  *
- * Copyright and license information can be found at LICENSE
+ * Copyright and license information can be found at LICENSE.txt
  * distributed with this package.
  */
  
 namespace Eve\Plugin\Htpasswd;
 
+use Eden\Registry\Index as Registry;
+
 /**
  * Htpasswd Plugin
  *
- * @vendor Eve
- * @package Plugin
- * @author Christian Blanquera cblanquera@openovate.com
+ * @package  Eve
+ * @category Plugin
+ * @author   Christian Blanquera <cblanquera@openovate.com>
+ * @standard PSR-2
  */
 class Setup extends Base
 {
@@ -54,7 +57,7 @@ class Setup extends Base
         $this->realm = $realm;
         $self = $this;
         
-        return function ($request, $response) use ($users, $self) {
+        return function (Registry $request, Registry $response) use ($users, $self) {
             //get digest
             $digest = $request->get('server', 'PHP_AUTH_DIGEST');
             
