@@ -12,8 +12,8 @@ namespace Eve\Plugin\Htpasswd;
 /**
  * Htpasswd Plugin
  *
- * @vendor Openovate
- * @package server
+ * @vendor Eve
+ * @package Plugin
  * @author Christian Blanquera cblanquera@openovate.com
  */
 class Setup extends Base
