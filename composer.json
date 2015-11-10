@@ -1,11 +1,9 @@
 {
-	"name": "openovate/eden-middleware-htpasswd",
-    "type": "middleware",
-    "description": "Htpassword Example",
-	"minimum-stability": "dev",
-    "keywords": [
-		"eden"
-	],
+	"name": "eve-php/eve-plugin-htpassword",
+    "type": "plugin",
+    "description": "Htpassword for the Eve Framework",
+	"keywords": ["eve", "plugin"],
+    "homepage": "http://eve.openovate.com",
     "license": "MIT",
 	"authors": [
         {
@@ -13,14 +11,10 @@
             "email": "cblanquera@openovate.com"
         }
     ],
-	"require-dev": {
-        "phpunit/phpunit": "~4.4",
-        "squizlabs/php_codesniffer": "~1.5",
-        "eden/server": "4.x-dev"
+	"require": {
+        "eden/registry": "4.*"
     },
 	"autoload": {
-        "psr-4": {
-			"Eden\\Middleware\\Htpasswd\\": "/src"
-		}
+        "psr-4": { "Eve\\Plugin\\Htpasswd\\": "/src" }
     }
 }
