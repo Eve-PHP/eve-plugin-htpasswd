@@ -1,5 +1,5 @@
 {
-	"name": "eve-php/eve-plugin-htpassword",
+	"name": "eve-php/eve-plugin-htpasswd",
     "type": "plugin",
     "description": "Htpassword for the Eve Framework",
 	"keywords": ["eve", "plugin"],
